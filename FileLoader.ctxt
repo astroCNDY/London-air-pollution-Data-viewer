@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FileLoader
+comment0.text=\n\ Loads\ the\ appropriate\ files\n\n\ @author\ Olivier\ Burger\n\ @version\ 1\n
+comment1.params=
+comment1.target=FileLoader()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ FileLoader\n
+comment2.params=pollutant\ year
+comment2.target=DataSet\ loadPollutionData(java.lang.String,\ java.lang.String)
+comment2.text=\n\ Load\ pollutant\ data\ for\ the\ specified\ pollutant\ and\ year\n\n\ @param\ pollutant\ The\ pollutant\ type\ (NO2,\ PM10,\ PM2.5)\n\ @param\ year\ The\ year\n
+comment3.params=pollutant\ year
+comment3.target=java.lang.String\ getDataFilePath(java.lang.String,\ java.lang.String)
+comment3.text=\n\ Get\ the\ appropriate\ file\ path\ for\ the\ selected\ pollutant\ and\ year\n\ @param\ pollutant\ The\ pollutant\ type\ (NO2,\ PM10,\ PM2.5)\n\ @param\ year\ The\ year\n
+numComments=4

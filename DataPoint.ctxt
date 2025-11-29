@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=DataPoint
+comment0.text=\n\ Objects\ of\ class\ DataPoint\ hold\ one\ data\ point\ in\ the\ dataset.\ A\ data\ point\n\ is\ a\ single\ value\ for\ one\ geographic\ location.\n\ \n\ The\ geographic\ location\ is\ provided\ in\ two\ ways\:\n\ \n\ \ \ -\ A\ gridcode.\ This\ is\ the\ UK\ grid\ code\ reference\ as\ defined\ by\ the\ UK\n\ \ \ \ \ Ordinance\ Survey\ National\ Grid\ \n\ \ \ \ \ (see\ https\://www.ordnancesurvey.co.uk/documents/resources/guide-to-nationalgrid.pdf)\n\ \ \ -\ An\ x/y\ coordinate\ pair,\ representing\ Ordinance\ Survey\ National\ Grid\ Eastings\ and\ Northings\ \n\ \ \ \ \ \ (see\ https\://getoutside.ordnancesurvey.co.uk/guides/beginners-guide-to-grid-references/)\n\n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+numComments=1

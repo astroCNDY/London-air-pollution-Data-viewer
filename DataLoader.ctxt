@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DataLoader
+comment0.text=\n\ This\ class\ loads\ a\ UK\ DEFRA\ air\ pollution\ file\ from\ disk\ and\ returns\ the\ file\ data\n\ in\ an\ object.\ \n\ \n\ DEFRA\ files\ are\ csv\ files\ in\ a\ specific\ format.\ See\ https\://uk-air.defra.gov.uk/data/pcm-data\n\ for\ detailed\ information.\n\n\ @author\ Michael\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=fileName
+comment1.target=DataSet\ loadDataFile(java.lang.String)
+comment1.text=\ \n\ Read\ a\ data\ file\ from\ disk.\ The\ data\ must\ be\ a\ csv\ file,\ and\ must\ be\ in\ the\n\ DEFRA\ air\ pollution\ file\ format.\ The\ data\ is\ returned\ in\ a\ DataSet\ object.\n\ \n\ @return\ A\ DataSet\ object\ holding\ the\ complete\ dataset\n
+comment2.params=br
+comment2.target=java.lang.String\ readDataHeader(java.io.BufferedReader)
+comment2.text=\n\ Read\ one\ piece\ of\ information\ out\ of\ the\ header\ of\ the\ data\ file.\n\ Each\ line\ in\ the\ header\ has\ the\ format\n\ \ \ \ DATA,,,\n\ That\ is,\ it\ is\ a\ four\ column\ csv\ entry\ where\ the\ first\ column\ holds\ the\ data\ we\n\ want\ and\ the\ other\ three\ columns\ are\ empty.\n\ We\ read\ and\ return\ only\ the\ data\ point\ from\ the\ first\ column.\n\ \n\ @return\ The\ data\ from\ the\ next\ header\ line\ of\ the\ file\ currently\ being\ read.\n
+numComments=3

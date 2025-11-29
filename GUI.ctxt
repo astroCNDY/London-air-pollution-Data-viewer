@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=GUI
+comment0.text=\n\ Write\ a\ description\ of\ JavaFX\ class\ Map\ here.\n\n\ @author\ Aditya\ Chandrasekar,\ Olivier\ Burger\ \n\ @version\ 1\n
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\n\ The\ start\ method\ is\ the\ main\ entry\ point\ for\ every\ JavaFX\ application.\n\ It\ is\ called\ after\ the\ init()\ method\ has\ returned\ and\ after\n\ the\ system\ is\ ready\ for\ the\ application\ to\ begin\ running.\n\n\ @param\ \ stage\ the\ primary\ stage\ for\ this\ application.\n
+comment2.params=
+comment2.target=void\ showWelcomePanel()
+comment2.text=\n\ Creates\ the\ welcome\ Panel\n
+comment3.params=
+comment3.target=void\ showMap()
+comment3.text=\n\ creates\ the\ map\ panel\n
+comment4.params=
+comment4.target=javafx.scene.control.MenuBar\ createMenuBar()
+comment4.text=\n\ Create\ the\ menu\ bar\n
+comment5.params=event
+comment5.target=void\ viewStatisticsAction(javafx.event.ActionEvent)
+comment6.params=event
+comment6.target=void\ viewMapAction(javafx.event.ActionEvent)
+comment7.params=
+comment7.target=void\ showStatistics()
+comment7.text=\n\ creates\ the\ statistics\ panel\n
+comment8.params=event
+comment8.target=void\ welcomePageAction(javafx.event.ActionEvent)
+comment9.params=event
+comment9.target=void\ quitAction(javafx.event.ActionEvent)
+numComments=10
